@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Turismos</title>
+    <link rel="stylesheet" href="./style.css">
+      
+</head>
+<body>
+     
+    <div class="flex-container" id="tasks">
+        <div class="form">
+         <form onsubmit="return false;">
+            <label for="fname">Add a task here:</label>
+            <input type="text" id="task" name="fname"><br><br>
+            <button id="addBtn" class="button">add</button>
+          </form> 
+          
+        </div>
+
+       <div class="list-tasks">
+           
+            <div class="item-tasks">
+                <h3>to do list</h3>
+                <ul id="toDoList">
+                   
+                </ul>
+                <a href="#" id="clearBtn" class="button">Clear</a>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+<script src="./scripts.js"></script>
+
+    <footer class="flex-container">
+        
+        <p>Desenvolvido por: Gid-lamim</p>
+    </footer>
+</body>
+</html>
