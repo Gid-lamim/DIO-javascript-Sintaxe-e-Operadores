@@ -14,6 +14,11 @@ ul li a{
     text-decoration: none;
 }
 
+body{
+    background-color: #fafafa;
+    width: 100%;
+
+}
 
 .flex-container {
     display: flex;
@@ -45,13 +50,20 @@ ul li a{
     display: none;
 }
 
+boxWrapper{
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 715px;
-    border: 2px solid #122a57;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
     padding: 16px;
     margin-top: 40px;
 }
@@ -83,7 +95,8 @@ form input{
     align-items: center;
     justify-content: center;
     width: 715px;
-    border: 2px solid #122a57;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
     padding: 16px;
     margin-top: 50px;
 }
