@@ -10,23 +10,22 @@
 <body>
      
     <div class="flex-container">
-        <div class="form">
+        <div id="formBox" class="formBox">
          <form onsubmit="return false;">
             <h3>Enter two numbers:</h3>
             <div class="input-box">
-                <label for="fname">First number:</label>     <input type="text" id="firstNumber" name="fname">
-                <label for="fname">Second number:</label>     <input type="text" id="secondNumber" name="fname">
+                <label for="fname">First number:</label>     <input type="number" id="firstNumber" name="fname">
+                <label for="fname">Second number:</label>     <input type="number" id="secondNumber" name="fname">
           </div>
            
             <div class="form-btn-box">
                 <button id="addBtn" class="button">Submit</button>
-                <button id="clearBtn" class="button">clear</button>
             </div>    
         
           </form>    
         </div>
 
-       <div id="msg-Box">
+       <div id="msgBox" class="disabledBox">
              <div id="text"></div>
              <button id="tryAgain" class="button">Try again</button>
        </div>
